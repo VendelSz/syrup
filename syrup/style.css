@@ -1,0 +1,118 @@
+body {
+    background-color: rgb(50, 0, 70);
+    font-family: sans-serif;
+}
+
+.navbar {
+    background-color:rgb(40, 0, 50);
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    align-items: top;
+}
+
+.navbar a {
+    float: left;
+    background-color: rgb(40, 0, 50);
+    padding: 14px 16px;
+    font-size: 17px;
+}
+
+.navbar a:hover {
+    background-color: rgb(50, 0, 70);
+    color: rgb(50, 0, 70);
+}
+
+.navbar a.active {
+    background-color: rgb(50, 0, 70);
+}
+
+.text {
+    text-align: center;
+    color: rgb(255, 170, 255);
+}
+
+.title {
+    text-align: center;
+}
+
+.aboutmetitle {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.leftside {
+    width: 450px;
+    float: left;
+    padding-top: 10px;
+    padding-left: 525px;
+    text-align: left;
+    padding-bottom: 100px;
+}
+
+.peripherals {
+    padding-top: 5px; 
+}
+
+.rightside {
+    width: 450px;
+    float: right;
+    padding-top: 0px;
+    padding-right: 425px;
+    text-align: right;
+}
+
+.gepimg {
+    border-radius: 25px;
+    background: url(img/gep.jpg);
+    background-position: initial;
+    background-size: 100%;
+    padding: 20px; 
+    width: 250px;
+    height: 333px;
+}
+
+.setupimg {
+    border-radius: 25px;
+    background: url(img/setup.jpg);
+    background-position: initial;
+    background-size: 100%;
+    padding: 20px; 
+    width: 800px;
+    height: 600px;
+}
+
+.linepaddingtop {
+    padding-top: 100px;
+}
+
+.line {
+    border-radius: 50px;
+    width: 50%;
+    height: 4px;
+    margin: 20px auto;
+    background-color: rgb(190, 0, 255);
+}
+
+.linepaddingbot {
+    padding-bottom: 100px;
+}
+
+.left {
+    width: 400px;
+    float: left;
+    padding-left: 400px;
+}
+
+.middle {
+    align-items: center;
+    float: none;
+}
+
+.right {
+    width: 400px;
+    float: right;
+    padding-right: 400px;
+}
